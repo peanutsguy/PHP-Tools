@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="extras_8php" kind="file" language="PHP">
+    <compoundname>extras.php</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="extras_8php_1a02e37d787fd49d16f75fa886ce308f6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>print_p</definition>
+        <argsstring>($var)</argsstring>
+        <name>print_p</name>
+        <param>
+          <declname>$var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Prints preformatted variable</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>any</parametertype>
+<parametername>$var</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The variable to be printed </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/extras.php" line="8" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/extras.php" bodystart="8" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="extras_8php_1a02e37d787fd49d16f75fa886ce308f6c" refkind="member"><highlight class="keyword">function</highlight><highlight class="normal"><sp/><ref refid="extras_8php_1a02e37d787fd49d16f75fa886ce308f6c" kindref="member">print_p</ref>($var)<sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;pre&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>print_r<sp/>(<sp/>$var<sp/>);</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>echo<sp/></highlight><highlight class="stringliteral">&quot;&lt;/pre&gt;&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">?&gt;</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/extras.php"/>
+  </compounddef>
+</doxygen>

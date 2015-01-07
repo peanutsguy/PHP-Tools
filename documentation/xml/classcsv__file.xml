@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classcsv__file" kind="class" language="PHP" prot="public">
+    <compoundname>csv_file</compoundname>
+    <basecompoundref refid="classform__file" prot="public" virt="non-virtual">form_file</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcsv__file_1afc2de894721f4eaec274115aa0c60c73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>get_csv</definition>
+        <argsstring>()</argsstring>
+        <name>get_csv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parses a CSV file to an array</para><para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Returns a mixed array with CODE (1 = success, 0 = error) and DATA (array or error message) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" line="140" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" bodystart="140" bodyend="150"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>csv_file</label>
+        <link refid="classcsv__file"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>form_file</label>
+        <link refid="classform__file"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>csv_file</label>
+        <link refid="classcsv__file"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>form_file</label>
+        <link refid="classform__file"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" line="133" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" bodystart="133" bodyend="151"/>
+    <listofallmembers>
+      <member refid="classform__file_1a2c9ddfb3bc42dc18f6a84af45f7df2d5" prot="public" virt="non-virtual"><scope>csv_file</scope><name>$file</name></member>
+      <member refid="classform__file_1aa40cc7876dc0b694eda3c898140a0ac8" prot="public" virt="non-virtual"><scope>csv_file</scope><name>$type</name></member>
+      <member refid="classform__file_1a5b11e210ac5460cd197f472811d6b3bb" prot="public" virt="non-virtual"><scope>csv_file</scope><name>__construct</name></member>
+      <member refid="classform__file_1a13bdffdd926f26b825ea57066334ff01" prot="public" virt="non-virtual"><scope>csv_file</scope><name>delete</name></member>
+      <member refid="classform__file_1ad2964e3618ab6ef019c98f7d64bc3972" prot="public" virt="non-virtual"><scope>csv_file</scope><name>f2s</name></member>
+      <member refid="classcsv__file_1afc2de894721f4eaec274115aa0c60c73" prot="public" virt="non-virtual"><scope>csv_file</scope><name>get_csv</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

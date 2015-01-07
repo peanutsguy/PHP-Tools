@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classform__file" kind="class" language="PHP" prot="public">
+    <compoundname>form_file</compoundname>
+    <derivedcompoundref refid="classcsv__file" prot="public" virt="non-virtual">csv_file</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="classform__file_1a2c9ddfb3bc42dc18f6a84af45f7df2d5" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>string $file</definition>
+        <argsstring></argsstring>
+        <name>$file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Path to the file </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" line="12" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classform__file_1aa40cc7876dc0b694eda3c898140a0ac8" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>string $type</definition>
+        <argsstring></argsstring>
+        <name>$type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>File extension </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" line="19" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classform__file_1a5b11e210ac5460cd197f472811d6b3bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($source, $type, $path)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$source</declname>
+        </param>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks the filetype and uploads the file to the desired path.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>file</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>POST source sent by the form </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>permited file extension </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>destination path</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Returns a 2D array containing CODE (1 = Success, 0 = Failure) and DATA (file path or error message) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" line="33" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" bodystart="33" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classform__file_1a13bdffdd926f26b825ea57066334ff01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Deletes the file from the server</para><para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Returns 1 in case it deleted the file succesfully, 0 otherwise. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" line="64" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" bodystart="64" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classform__file_1ad2964e3618ab6ef019c98f7d64bc3972" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>f2s</definition>
+        <argsstring>()</argsstring>
+        <name>f2s</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Parses the file to a string</para><para><parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Returns a 2D array containing CODE (1 = Success, 0 = Failure) and DATA (or error message) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" line="78" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" bodystart="78" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classform__file_1a58a8d8fe571a43b5d68c7359b07b0bbd" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>check_type</definition>
+        <argsstring>($src, $tp)</argsstring>
+        <name>check_type</name>
+        <param>
+          <declname>$src</declname>
+        </param>
+        <param>
+          <declname>$tp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks the file&apos;s extension against the permitted extension as defined by the user</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>file</parametertype>
+<parametername>$src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The POST source sent by the form </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$tp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Permitted file extension</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>boolean</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Returns TRUE in case the file has de desired extension, FALSE if otherwise </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" line="98" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" bodystart="98" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="classform__file_1a50a43899b4c198e691a25083f549b2e7" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>upload_file</definition>
+        <argsstring>($source, $path)</argsstring>
+        <name>upload_file</name>
+        <param>
+          <declname>$source</declname>
+        </param>
+        <param>
+          <declname>$path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Uploads the file to the defined path</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametertype>file</parametertype>
+<parametername>$source</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The POST source sent by the form </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametertype>string</parametertype>
+<parametername>$path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Destination path where the file will be stored</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<parameterlist kind="retval"><parameteritem>
+<parameternamelist>
+<parametername>array</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Returns a 2D array containing CODE (1 = Success, 0 = Failure) and DATA (or error message) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" line="118" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" bodystart="118" bodyend="131"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Upload and manage file from form </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>csv_file</label>
+        <link refid="classcsv__file"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>form_file</label>
+        <link refid="classform__file"/>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" line="6" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/file_man.php" bodystart="6" bodyend="132"/>
+    <listofallmembers>
+      <member refid="classform__file_1a2c9ddfb3bc42dc18f6a84af45f7df2d5" prot="public" virt="non-virtual"><scope>form_file</scope><name>$file</name></member>
+      <member refid="classform__file_1aa40cc7876dc0b694eda3c898140a0ac8" prot="public" virt="non-virtual"><scope>form_file</scope><name>$type</name></member>
+      <member refid="classform__file_1a5b11e210ac5460cd197f472811d6b3bb" prot="public" virt="non-virtual"><scope>form_file</scope><name>__construct</name></member>
+      <member refid="classform__file_1a58a8d8fe571a43b5d68c7359b07b0bbd" prot="private" virt="non-virtual"><scope>form_file</scope><name>check_type</name></member>
+      <member refid="classform__file_1a13bdffdd926f26b825ea57066334ff01" prot="public" virt="non-virtual"><scope>form_file</scope><name>delete</name></member>
+      <member refid="classform__file_1ad2964e3618ab6ef019c98f7d64bc3972" prot="public" virt="non-virtual"><scope>form_file</scope><name>f2s</name></member>
+      <member refid="classform__file_1a50a43899b4c198e691a25083f549b2e7" prot="private" virt="non-virtual"><scope>form_file</scope><name>upload_file</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

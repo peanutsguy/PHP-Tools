@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.9.1">
+  <compounddef id="classdata__sql" kind="class" language="PHP" prot="public">
+    <compoundname>data_sql</compoundname>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classdata__sql_1a881924afaecbe8ee5c0d26174a1e8081" prot="protected" static="no" mutable="no">
+        <type></type>
+        <definition>$conexion</definition>
+        <argsstring></argsstring>
+        <name>$conexion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" line="3" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classdata__sql_1aeb7c83e7889e77ae0020e15aebd03c96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>($dbase)</argsstring>
+        <name>__construct</name>
+        <param>
+          <declname>$dbase</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" line="4" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" bodystart="4" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classdata__sql_1aa7ef7a5c32439c173a9b6eee1d8e9ee2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>select</definition>
+        <argsstring>($query)</argsstring>
+        <name>select</name>
+        <param>
+          <declname>$query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" line="33" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" bodystart="33" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="classdata__sql_1a782c2f4873f82029cdec762cab5cf77c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>insert</definition>
+        <argsstring>($query)</argsstring>
+        <name>insert</name>
+        <param>
+          <declname>$query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" line="91" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" bodystart="91" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classdata__sql_1ab057de125f705db2a9ce794da1ad48cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>update</definition>
+        <argsstring>($query)</argsstring>
+        <name>update</name>
+        <param>
+          <declname>$query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" line="120" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" bodystart="120" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="classdata__sql_1ada9436c872c2901a49c907b642c05dfd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>delete</definition>
+        <argsstring>($query)</argsstring>
+        <name>delete</name>
+        <param>
+          <declname>$query</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" line="141" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" bodystart="141" bodyend="161"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classdata__sql_1a66ffedd5b66a225035798cd1d1448c48" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>connect</definition>
+        <argsstring>($type, $conf)</argsstring>
+        <name>connect</name>
+        <param>
+          <declname>$type</declname>
+        </param>
+        <param>
+          <declname>$conf</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" line="7" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" bodystart="7" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" line="2" column="1" bodyfile="C:/Users/marcelo_galas/Documents/PHP-Tools/src/database.php" bodystart="2" bodyend="162"/>
+    <listofallmembers>
+      <member refid="classdata__sql_1a881924afaecbe8ee5c0d26174a1e8081" prot="protected" virt="non-virtual"><scope>data_sql</scope><name>$conexion</name></member>
+      <member refid="classdata__sql_1aeb7c83e7889e77ae0020e15aebd03c96" prot="public" virt="non-virtual"><scope>data_sql</scope><name>__construct</name></member>
+      <member refid="classdata__sql_1a66ffedd5b66a225035798cd1d1448c48" prot="private" virt="non-virtual"><scope>data_sql</scope><name>connect</name></member>
+      <member refid="classdata__sql_1ada9436c872c2901a49c907b642c05dfd" prot="public" virt="non-virtual"><scope>data_sql</scope><name>delete</name></member>
+      <member refid="classdata__sql_1a782c2f4873f82029cdec762cab5cf77c" prot="public" virt="non-virtual"><scope>data_sql</scope><name>insert</name></member>
+      <member refid="classdata__sql_1aa7ef7a5c32439c173a9b6eee1d8e9ee2" prot="public" virt="non-virtual"><scope>data_sql</scope><name>select</name></member>
+      <member refid="classdata__sql_1ab057de125f705db2a9ce794da1ad48cf" prot="public" virt="non-virtual"><scope>data_sql</scope><name>update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
